@@ -50,7 +50,7 @@ public class T01A03_5_LambdaKeyEvent extends Application {
         
         Scene scene = new Scene(root, 300, 250);
         
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setTitle("Lambda KeyEvents");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
