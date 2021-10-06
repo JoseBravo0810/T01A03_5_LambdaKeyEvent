@@ -45,13 +45,19 @@ public class T01A03_5_LambdaKeyEvent extends Application {
                 texto.setX(texto.getX() - 10);
         });
         
+        // Creamos el panel raiz
         Pane root = new Pane();
+        // Añadimos el texto al panel raiz (usamos pane porque permite libertad para ubicar componentes)
         root.getChildren().add(texto);
         
+        // Creamos la escena con nodo padre root, y unas dimensiones concretas
         Scene scene = new Scene(root, 300, 250);
         
+        // Añadmos titulo a la ventana
         primaryStage.setTitle("Lambda KeyEvents");
+        // Establecemos la escena que se verá en pantalla
         primaryStage.setScene(scene);
+        // Mostramos el escenario (stage), con todos sus componentes
         primaryStage.show();
     }
 
